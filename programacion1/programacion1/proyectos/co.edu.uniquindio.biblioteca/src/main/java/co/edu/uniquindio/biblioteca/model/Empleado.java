@@ -4,10 +4,10 @@ public class Empleado {
     private String nombre;
     private String apellido;
     private String cedula;
-    private String edad;
+    private int edad;
     private String direccion;
 
-    public Empleado (String nombre, String apellido, String cedula, String edad, String direccion) {
+    public Empleado (String nombre, String apellido, String cedula, int edad, String direccion) {
         this.nombre=nombre;
         this.apellido=apellido;
         this.cedula=cedula;
@@ -32,10 +32,10 @@ public class Empleado {
     public void setCedula(String cedula) {
         this.cedula=cedula;
     }
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad=edad;
     }
     public String getDireccion(){ return direccion; }

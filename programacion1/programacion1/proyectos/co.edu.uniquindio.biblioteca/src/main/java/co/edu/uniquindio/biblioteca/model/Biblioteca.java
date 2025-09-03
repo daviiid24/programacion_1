@@ -9,7 +9,7 @@ public class Biblioteca {
     private ArrayList<Libro> listaLibros = new ArrayList();
     private ArrayList<Prestamo> listaPrestamos = new ArrayList();
 
-    Biblioteca(String nombre) {
+    public Biblioteca(String nombre) {
         this.nombre = nombre;
     }
     public String getNombre(){
@@ -17,5 +17,14 @@ public class Biblioteca {
     }
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    public ArrayList<Cliente> getListaClientes() {
+        return listaClientes;
+    }
+    public ArrayList<Empleado> getListaEmpleados() {
+        return listaEmpleados;
+    }
+    public ArrayList<Libro> getListaLibros() {
+        return listaLibros;
     }
 }

@@ -4,15 +4,19 @@ public class Cliente {
     private String nombre;
     private String id;
     private String telefono;
-    private String edad;
+    private int edad;
     private String direccion;
 
-    public Cliente(String nombre, String id, String telefono, String edad, String direccion) {
+    public Cliente(String nombre, String id, String telefono, int edad, String direccion) {
         this.nombre = nombre;
         this.id = id;
         this.telefono = telefono;
         this.edad = edad;
         this.direccion = direccion;
+    }
+
+    public Cliente() {
+
     }
 
     public String getNombre() {
@@ -39,10 +43,10 @@ public class Cliente {
         this.telefono = telefono;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
     public String getDireccion() {
