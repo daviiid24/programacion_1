@@ -3,6 +3,7 @@ package co.edu.uniquindio.biblioteca;
 import co.edu.uniquindio.biblioteca.model.Cliente;
 import co.edu.uniquindio.biblioteca.model.Empleado;
 import co.edu.uniquindio.biblioteca.model.Libro;
+import co.edu.uniquindio.biblioteca.model.Prestamo;
 
 
 import java.util.Scanner;
@@ -11,6 +12,7 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static Prestamo prestamo1;
     private static Cliente cliente1;
     private static Empleado empleado1;
     private static Libro libro1;
